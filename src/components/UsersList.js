@@ -45,7 +45,8 @@ function UsersList() {
         >
           {
             result.isLoading ? (
-              <CircularProgress />
+              
+              <CircularProgress style={{width:'20px', height:'20px'}}/>
             ) : (
               <span>Kişi Ekle</span>
             )
