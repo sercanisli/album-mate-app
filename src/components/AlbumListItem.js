@@ -1,9 +1,9 @@
 import React from 'react'
 import ExpandablePanel from './ExpandablePanel'
-import FotoList from './FotoList';
 import  CircularProgress  from '@mui/material/CircularProgress';
 import { GoTrash } from "react-icons/go";
 import { useRemoveAlbumMutation } from '../store';
+import PhotoList from './PhotoList';
 
 
 function AlbumListItem({album}) {
@@ -35,7 +35,7 @@ function AlbumListItem({album}) {
   return (
     <div>
         <ExpandablePanel header={header}> 
-          <FotoList album={album}/>
+          <PhotoList album={album}/>
         </ExpandablePanel>
     </div>
   )

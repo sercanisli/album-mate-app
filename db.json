@@ -27,6 +27,19 @@
       "id": "f034",
       "userId": "4",
       "title": "Small Wooden Fish"
+    },
+    {
+      "id": "4394",
+      "userId": "3",
+      "title": "Electronic Concrete Hat"
+    }
+  ],
+  "photos": [
+    {},
+    {
+      "id": "f011",
+      "albumId": "4394",
+      "url": "https://loremflickr.com/150/150/abstract?lock=144343864180736"
     }
   ]
 }
