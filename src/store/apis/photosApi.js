@@ -47,7 +47,7 @@ const photosApi = createApi({
             method: 'POST',
             body: {
               albumId: album.id,
-              url: faker.image.abstract(150,150,true), //faker içerisinden rastgele 150x150 bir foto gelecek
+              url: faker.image.abstract(150,150,true),
             },
           };
         },

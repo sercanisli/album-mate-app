@@ -56,7 +56,7 @@ function PhotoList({album}) {
             </Button>
           </div>
       </div>
-      <div>
+      <div className='photoDiv'>
         {
           content
         }
