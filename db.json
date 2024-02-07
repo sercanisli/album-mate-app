@@ -1,24 +1,31 @@
 {
   "users": [
     {
-      "id": "cc91",
+      "id": 1,
       "name": "Elijah Bailey"
     },
     {
-      "id": "d257",
+      "id": 2,
       "name": "Benny Labadie MD"
     },
     {
-      "id": "06d1",
+      "id": 3,
       "name": "Ben Schowalter V"
     },
     {
-      "id": "422f",
+      "id": 4,
       "name": "Mr. Dexter Bernhard"
     },
     {
-      "id": "c702",
+      "id": 5,
       "name": "Carmen Franecki"
+    }
+  ],
+  "albums": [
+    {
+      "userId" : 3,
+      "title" : "Manisa",
+      "id" : 45
     }
   ]
 }
