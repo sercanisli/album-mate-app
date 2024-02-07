@@ -8,10 +8,9 @@ import  CircularProgress  from '@mui/material/CircularProgress';
 function UsersListItem({user}) { 
 
   const [removeUser, result] = useRemoveUserMutation();
-  //removeUser benim diğer tarafta ki metot adım result ise dönen sonuçları içinde barındırır.
 
   const handleClick = () =>{
-    removeUser(user); //burada use bana props olarak geliyor zaten.
+    removeUser(user);
   }
 
   const header = (
@@ -21,10 +20,10 @@ function UsersListItem({user}) {
         onClick={handleClick}
       >
         {
-          result.isLoading ? ( //true ise spinner olacak
+          result.isLoading ? (
             <CircularProgress style={{width:'20px', height:'20px'}} />
           ) : (
-            <GoTrash/> //false ise GoTrash icon çöp kutusu olacak.
+            <GoTrash/> 
           )
         }
       </button>
