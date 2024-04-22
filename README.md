@@ -1,4 +1,4 @@
-This project is developed using React. The API request was received using the Redux Toolkit. Metarial UI was used for the UI.
+This project is developed using React. The API request was received using the Redux Toolkit Query. Metarial UI was used for the UI.
 
 # Getting Started with Create React App
 
